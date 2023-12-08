@@ -6,29 +6,30 @@
   <title>태그 사용해보기</title>
 </head>
 <body>
-  <div id="select">
-    <select name="like" id="animal">
-      좋아하는 동물을 골라주세요
-      <object data="강아지" type="dog">강아지</object>
-    </select>
-  </div>
+  <!-- 좋아하는 동물 고르기 -->
+  <select name="animal" size="4">
+    <optgroup label="좋아하는 동물을 골라주세요"></optgroup>
+    <option value="dog">강아지</option>
+    <option value="cat">고양이</option>
+    <option value="lion" selected>사자</option>
+    <option value="tiger">호랑이</option>
+    <option value="rabbit">토끼</option>
+  </select>
+  <!-- 분야별 검색어 -->
   <h1>분야별 검색어</h1>
-  <div id="list_ol">
-    <p>안녕하세요</p>
-    드라마
-    <ol>
-      <li>구미호던1938</li>
-      <li>진짜가 나타났다!</li>
-      <li>낭만닥터 김사부3</li>
-    </ol>
-  </div>
+  <p>안녕하세요<br>
+  <id='drama' style="text-decoration: underline;">드라마</p>
+  <ol>
+    <li>구미호던1938</li>
+    <li>진짜가 나타났다!</li>
+    <li>낭만닥터 김사부3</li>
+  </ol>
+  <!-- 추천글 -->
   <h1>같이가치 추천글</h1>
-  <div id="list_ul">
-    <ul>
-      <li>어느 베트남 엄마의 멈추지 않는 눈물</li>
-      <li>조금은 특별한 우리의 여행</li>
-      <li>외로운 어르신, 가족의 손길을 선물해주세요</li>
-    </ul>
-  </div>
+  <ul>
+    <li>어느 베트남 엄마의 멈추지 않는 눈물</li>
+    <li>조금은 특별한 우리의 여행</li>
+    <li>외로운 어르신, 가족의 손길을 선물해주세요</li>
+  </ul>
 </body>
 </html>
