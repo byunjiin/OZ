@@ -6,6 +6,135 @@
   <title>회원가입 만들기</title>
 </head>
 <body>
-  
+  <!-- 헤더 -->
+  <header>
+    <h1>회원가입</h1>
+  </header>
+  <hr />
+  <!-- 메인 -->
+  <main>
+    <form>
+      <fieldset>
+        <legend>필수 입력 사항</legend>
+        <ul>
+          <li>
+            <label for="email">이메일 : </label>
+            <input
+              type="email"
+              name="name"
+              id="email"
+              placeholder="이메일을 입력하세요"
+            />
+          </li>
+          <li>
+            <label for="name">이름 : </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="이름을 입력하세요"
+            />
+          </li>
+          <li>
+            <label for="password">비밀번호 : </label>
+            <input
+              type="password"
+              name="name"
+              id="password"
+              placeholder="비밀번호를 입력하세요"
+              style="width: 200px;"
+            />
+          </li>
+          <li>
+            <label for="password">비밀번호 확인 : </label>
+            <input
+              type="password"
+              name="name"
+              id="password"
+              placeholder="비밀번호를 다시 입력하세요"
+              style="width: 200px;"
+            />
+          </li>
+          <li>
+            <label for="phonenumber">휴대폰 : </label>
+            <input
+              type="tel"
+              name="name"
+              id="phonenumber"
+              style="width: 80px;"
+            /> -
+            <input
+              type="tel"
+              name="name"
+              id="phonenumber"
+              style="width: 80px;"
+            /> -
+            <input
+              type="tel"
+              name="name"
+              id="phonenumber"
+              style="width: 80px;"
+            />
+          </li>
+          <li>
+          000000
+          <br />
+          <button style="opacity: 0.5;">
+            인증번호 전송
+          </button>
+          </li>
+          <li>
+          3:00
+          <br />
+          <button style="opacity: 0.5;">
+            인증확인
+          </button>
+          </li>
+          <br>
+          <button type="submit">가입하기</button>
+          <button type="reset">취소</button>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>기타 입력 사항</legend>
+        <ul>
+          <li>
+            <select name="area" size="1">
+              <option value="select" selected>지역을 선택해주세요</option>
+              <option value="seoul">서울</option>
+              <option value="busan">부산</option>
+              <option value="daegu">대구</option>
+              <option value="daejeon">대전</option>
+            </select>
+          </li>
+          <li>
+            <input type="checkbox" id="coding" name="hobby" />
+            <label for="coding">코딩</label>
+            <input type="checkbox" id="exercise" name="hobby" />
+            <label for="exercise">운동</label>
+            <input type="checkbox" id="breathing" name="hobby" />
+            <label for="breathing">숨쉬기</label>
+            <input type="checkbox" id="traveling" name="hobby" />
+            <label for="traveling">여행</label>
+          </li>
+          <li>
+            <input type="radio" id="man" name="gender" />
+            <label for="man">남자</label>
+            <input type="radio" id="woman" name="gender" />
+            <label for="woman">여자</label>
+            <input type="radio" id="secret" name="gender" />
+            <label for="secret">비밀</label>
+          </li>
+          <br />
+          <input type="submit" />
+        </ul>
+      </fieldset>
+    </form>
+  </main>
+  <hr />
+  <!-- 푸터 -->
+  <footer>
+    <p>변지인의 회원가입 사이트 입니다.</p>
+  </footer>
 </body>
 </html>
